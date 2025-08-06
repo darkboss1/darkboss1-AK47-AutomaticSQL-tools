@@ -7,7 +7,7 @@ from termcolor import cprint, colored
 from urllib.parse import urlparse
 import getpass
 
-PASSWORD = "SH404"
+PASSWORD = "DARKBOSS1-AK47"
 output_dir = "output"
 os.makedirs(output_dir, exist_ok=True)
 
@@ -16,8 +16,8 @@ def banner():
     cprint("\n", "red")
     cprint("", "yellow")
     cprint("\n", "green")
-    cprint("     Vampire Squad - Auto SQL Scanner", "cyan")
-    print(colored("     Coded by: Muhammad Shourov (VAMPIRE)", "magenta"))
+    cprint("     darkboss1 Squad - Auto SQL Scanner", "cyan")
+    print(colored("     Coded by: darkboss1 (Ak47)", "magenta"))
     print(colored("     Status: Fully Automatic | Fully Secure | Fully Advanced\n", "light_green"))
 
 def slow_type(text, delay=0.03):
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     check_password()
 
     if len(sys.argv) != 2:
-        print("\nUsage: python3 vampire-autosql.py <website>")
+        print("\nUsage: python3 darkboss1-AK47-AutomaticSQL-tools.py <website>")
         sys.exit(1)
 
     target = urlparse(sys.argv[1]).netloc
